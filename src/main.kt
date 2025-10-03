@@ -3,13 +3,15 @@ fun main() {
     val clyde = Cat("Clyde", 5, 5)
     val flathead = Cat("Flathead", 7, 10)
     val cupra= Cat("Cupra", 2, 7)
-    for (i in 1..2) {
-        flathead.eat()
-    }
-    
-    cupra.walk()
-    binnie.walk()
-    clyde.walk()
+
+    flathead.eat(10)
+
+
+    cupra.walk(1)
+    binnie.walk(1)
+    clyde.walk(1)
+    println(flathead)
+    println(cupra)
     println(binnie)
     println(clyde)
 }
